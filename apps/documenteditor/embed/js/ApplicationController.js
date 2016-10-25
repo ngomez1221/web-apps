@@ -314,7 +314,10 @@ var ApplicationController = new(function(){
 
         handlerToolbarSize();
         hidePreloader();
-
+        
+        //$("#btn-zoom-towidth").click();
+        //$("#btn-zoom-topage").click();
+        
         Common.Analytics.trackEvent('Load', 'Complete');
     }
 
