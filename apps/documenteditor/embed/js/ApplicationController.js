@@ -316,7 +316,7 @@ var ApplicationController = new(function(){
         hidePreloader();
         
         //$("#btn-zoom-towidth").click();
-        //$("#btn-zoom-topage").click();
+        $("#btn-zoom-topage").click();
         
         Common.Analytics.trackEvent('Load', 'Complete');
     }
